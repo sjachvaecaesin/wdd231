@@ -1,0 +1,119 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template: auto / auto;
+    margin: 0px;
+}
+  
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: rgb(212, 9, 9);
+    grid-row: 1/2;
+}
+
+header img {
+    display: block;
+    margin: 5px 0 5px 5px;
+    width: 125px;
+    height: auto;
+    border: 1px solid;
+}
+
+header h1 {
+    color: white;
+    text-align: left;
+    margin: auto 0;
+    padding: 0 10px;
+    justify-content: center;
+    font-family: 'Crimson Text', Helvetica, sans-serif;
+}
+
+#ham {
+    grid-column: 4/5;
+    margin: auto;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.open {
+    display: block;
+}
+
+.active::before {
+    content: ">  ";
+}
+
+.active::after {
+    content: "  <";
+}
+
+nav {
+    background: black;
+    padding: 0px;
+    grid-column: 1/5;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Crimson Text', Helvetica, sans-serif;
+    margin: 8px;
+    padding: 5px 0;
+}
+
+main {
+    background: white;
+    align-content: center;
+    grid-row: 2/3;
+    height: 100%;
+    width: 85%;
+    padding: 1rem;
+    margin: auto;
+}
+  
+footer {
+    background: rgb(255, 105, 105);
+    padding: 1.7rem;
+    text-align: center;
+    grid-row: 3/4;
+    font-family: 'Crimson Text', Helvetica, sans-serif;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: auto auto;
+    border: 1px solid;
+    border-radius: 6px;
+    margin: 10px;
+    box-shadow: 0 0 20px #777;
+    font-family: 'Crimson Text', Helvetica, sans-serif;
+}
+
+.card h3 {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    background-color: rgb(255, 105, 105);
+    border-start-start-radius: 6px;
+    border-start-end-radius: 6px;
+}
