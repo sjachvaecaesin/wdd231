@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <!-- <link rel="stylesheet" href="styles/larger.css"> -->
+    <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/courses.js" defer></script>
 </head>
@@ -27,10 +27,10 @@
             <button id="menu" aria-label="Hamburger button"></button>
         </div>
         <nav class="navigation">
-            <a href="#" class="active">Home</a>
+            <a href="index.html" class="active">Home</a>
             <a href="#">Chamber</a>
             <a href="#">GitHub Profile</a>
-            <a href="#">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/elias-s-319a56257/">LinkedIn</a>
         </nav>
     </header>
     <main>
@@ -47,7 +47,7 @@
             <img src="images/hall-small.webp" alt="Town hall">
             <p>Town Hall</p>
         </section>
-        <section class="card">
+        <section class="card" id="courses">
             <h3>Web and Computer Programming Certificate</h3>
             <div id="filters">
                 <button class="selected" id="all">All</button>
@@ -55,6 +55,7 @@
                 <button id="wdd">WDD</button>
             </div>
             <span id="certificates"></span>
+            <p>Total Credits Required: <span id="credits"></span></p>
         </section>
     </main>
     <footer>

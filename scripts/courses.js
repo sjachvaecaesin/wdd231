@@ -82,6 +82,8 @@ const certificates = document.querySelector('#certificates');
 const all = document.querySelector('#all');
 const cse = document.querySelector('#cse');
 const wdd = document.querySelector('#wdd');
+const credits = document.querySelector('#credits');
+const remaining = document.querySelector('#remaining');
 
 const displayCourses = (courses) => {
     courses.forEach((course) => {
@@ -155,3 +157,9 @@ wdd.addEventListener('click',  () => {
     certificates.innerHTML = '';
     displayWDD(courses)
 });
+
+function creds (total, num) {
+    return total + num;
+};
+
+credits.textContent = courses.map(course => course.credits).reduce(creds);
