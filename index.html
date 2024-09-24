@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <!-- <link rel="stylesheet" href="styles/larger.css"> -->
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/courses.js" defer></script>
 </head>
@@ -42,13 +42,17 @@
         </section>
         <section class="card">
             <h3>Elizabethtown, Kentucky</h3>
-            <img>
+            <img src="images/hall-small.webp" alt="Town hall">
+            <p>Town Hall</p>
         </section>
         <section class="card">
             <h3>Web and Computer Programming Certificate</h3>
-            <div>
-                
+            <div id="filters">
+                <button class="selected" id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
             </div>
+            <span id="certificates"></span>
         </section>
     </main>
     <footer>

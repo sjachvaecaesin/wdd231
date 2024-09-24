@@ -77,3 +77,81 @@ const courses = [
         completed: false
     }
 ]
+
+const certificates = document.querySelector('#certificates');
+const all = document.querySelector('#all');
+const cse = document.querySelector('#cse');
+const wdd = document.querySelector('#wdd');
+
+const displayCourses = (courses) => {
+    courses.forEach((course) => {
+        let div = document.createElement('div');
+        div.textContent = `${course.subject} ${course.number}`;
+
+        if (course.completed) {
+            div.style.backgroundColor = 'black';
+            div.style.color = 'white';
+        } else {
+            div.style.backgroundColor = 'white';
+            div.style.color = 'black';
+            div.style.border = '1px solid';
+        }
+
+        certificates.appendChild(div);
+    })
+};
+
+displayCourses(courses);
+
+const displayCSE = (courses) => {
+    courses.forEach((course) => {
+        if (course.subject == 'CSE') {
+            let div = document.createElement('div');
+        div.textContent = `${course.subject} ${course.number}`;
+
+        if (course.completed) {
+            div.style.backgroundColor = 'black';
+            div.style.color = 'white';
+        } else {
+            div.style.backgroundColor = 'white';
+            div.style.color = 'black';
+            div.style.border = '1px solid';
+        }
+
+        certificates.appendChild(div);
+        }
+    })
+};
+
+const displayWDD = (courses) => {
+    courses.forEach((course) => {
+        if (course.subject == 'WDD') {
+            let div = document.createElement('div');
+        div.textContent = `${course.subject} ${course.number}`;
+
+        if (course.completed) {
+            div.style.backgroundColor = 'black';
+            div.style.color = 'white';
+        } else {
+            div.style.backgroundColor = 'white';
+            div.style.color = 'black';
+            div.style.border = '1px solid';
+        }
+
+        certificates.appendChild(div);
+        }
+    })
+};
+
+all.addEventListener('click', () => {
+    certificates.innerHTML = '';
+    displayCourses(courses)
+});
+cse.addEventListener('click',  () => {
+    certificates.innerHTML = '';
+    displayCSE(courses)
+});
+wdd.addEventListener('click',  () => {
+    certificates.innerHTML = '';
+    displayWDD(courses)
+});

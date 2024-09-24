@@ -7,7 +7,7 @@ body {
   
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr 1fr;
     background: rgb(212, 9, 9);
     grid-row: 1/2;
 }
@@ -116,4 +116,31 @@ footer {
     background-color: rgb(255, 105, 105);
     border-start-start-radius: 6px;
     border-start-end-radius: 6px;
+}
+
+.card img {
+    margin: 10px auto;
+}
+
+.card p {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+#filters {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+#filters button {
+    width: 30%;
+}
+
+#certificates div {
+    text-align: center;
+    padding: 15px 0;
+    width: 90%;
+    margin: 15px auto;
+    border-radius: 6px;
 }
