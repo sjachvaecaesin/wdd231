@@ -101,15 +101,18 @@ const displayCourses = (courses) => {
 
         certificates.appendChild(div);
     })
+    credits.textContent = courses.map(course => course.credits).reduce(creds);
 };
 
 displayCourses(courses);
 
 const displayCSE = (courses) => {
+    let temp = [];
     courses.forEach((course) => {
         if (course.subject == 'CSE') {
             let div = document.createElement('div');
         div.textContent = `${course.subject} ${course.number}`;
+            temp.push(course.credits);
 
         if (course.completed) {
             div.style.backgroundColor = 'black';
@@ -123,13 +126,16 @@ const displayCSE = (courses) => {
         certificates.appendChild(div);
         }
     })
+    credits.textContent = temp.reduce(creds);
 };
 
 const displayWDD = (courses) => {
+    let temp = [];
     courses.forEach((course) => {
         if (course.subject == 'WDD') {
             let div = document.createElement('div');
         div.textContent = `${course.subject} ${course.number}`;
+        temp.push(course.credits);
 
         if (course.completed) {
             div.style.backgroundColor = 'black';
@@ -143,23 +149,23 @@ const displayWDD = (courses) => {
         certificates.appendChild(div);
         }
     })
+    credits.textContent = temp.reduce(creds);
 };
 
 all.addEventListener('click', () => {
     certificates.innerHTML = '';
-    displayCourses(courses)
+    displayCourses(courses);
 });
 cse.addEventListener('click',  () => {
     certificates.innerHTML = '';
-    displayCSE(courses)
+    displayCSE(courses);
+
 });
 wdd.addEventListener('click',  () => {
     certificates.innerHTML = '';
-    displayWDD(courses)
+    displayWDD(courses);
 });
 
 function creds (total, num) {
     return total + num;
 };
-
-credits.textContent = courses.map(course => course.credits).reduce(creds);
