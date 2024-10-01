@@ -1,0 +1,84 @@
+{
+    "companies": [
+        {
+            "name": "Company 1",
+            "address": "xxxxxxxxxxxxx",
+            "phone": "1235554567",
+            "url": "#",
+            "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/corner-large.webp",
+            "alt": "Company 1 Picture",
+            "level": "Non-Profit",
+            "optional": "xxxxxxxxxxxxx"
+        },
+        {
+            "name": "Company 2",
+            "address": "xxxxxxxxxxxxx",
+            "phone": "1235554567",
+            "url": "#",
+            "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/street-large.webp",
+            "alt": "Company 2 Picture",
+            "level": "Gold",
+            "optional": "xxxxxxxxxxxxx"
+        },
+        {
+            "name": "Company 3",
+            "address": "xxxxxxxxxxxxx",
+            "phone": "1235554567",
+            "url": "#",
+            "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/hall-large.webp",
+            "alt": "Company 3 Picture",
+            "level": "Gold",
+            "optional": "xxxxxxxxxxxxx"
+        },
+        {
+            "name": "Company 4",
+            "address": "xxxxxxxxxxxxx",
+            "phone": "1235554567",
+            "url": "#",
+            "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/corner-large.webp",
+            "alt": "Company 4 Picture",
+            "level": "Silver",
+            "optional": "xxxxxxxxxxxxx"
+        },
+        {
+            "name": "Company 5",
+            "address": "xxxxxxxxxxxxx",
+            "phone": "1235554567",
+            "url": "#",
+            "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/street-large.webp",
+            "alt": "Company 5 Picture",
+            "level": "Non-Profit",
+            "optional": "xxxxxxxxxxxxx"
+        },
+        {
+            "name": "Company 6",
+            "address": "xxxxxxxxxxxxx",
+            "phone": "1235554567",
+            "url": "#",
+            "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/hall-large.webp",
+            "alt": "Company 6 Picture",
+            "level": "Bronze",
+            "optional": "xxxxxxxxxxxxx"
+        },
+        {
+            "name": "Company 7",
+            "address": "xxxxxxxxxxxxx",
+            "phone": "1235554567",
+            "url": "#",
+            "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/corner-large.webp",
+            "alt": "Company 7 Picture",
+            "level": "Silver",
+            "optional": "xxxxxxxxxxxxx"
+        },
+        {
+            "name": "Company 8",
+            "address": "xxxxxxxxxxxxx",
+            "phone": "1235554567",
+            "url": "#",
+            "image": "https://sjachvaecaesin.github.io/wdd230/chamber/images/street-large.webp",
+            "alt": "Company 8 Picture",
+            "level": "Gold",
+            "optional": "xxxxxxxxxxxxx"
+        }
+    ]
+}
