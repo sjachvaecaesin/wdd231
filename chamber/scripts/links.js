@@ -1,7 +1,7 @@
 const listElement = document.querySelector("#list");
 const gridButton = document.querySelector("#grid");
 const listButton = document.querySelector("#file");
-const url = "https://sjachvaecaesin.github.io/wdd230/data/members.json";
+const url = "https://sjachvaecaesin.github.io/wdd231/data/members.json";
 
 async function getMembers() {
     const response = await fetch(url);

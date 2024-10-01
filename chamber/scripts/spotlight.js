@@ -1,5 +1,5 @@
 const cardsElement = document.querySelector(".cards");
-const members = "https://sjachvaecaesin.github.io/wdd230/data/members.json";
+const members = "https://sjachvaecaesin.github.io/wdd231/data/members.json";
 
 async function getMembers() {
     const response = await fetch(members);
