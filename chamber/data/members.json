@@ -8,7 +8,7 @@
             "image": "https://sjachvaecaesin.github.io/wdd231/chamber/images/corner-large.webp",
             "alt": "Company 1 Picture",
             "level": "Non-Profit",
-            "optional": "xxxxxxxxxxxxx"
+            "optional": ""
         },
         {
             "name": "Company 2",
@@ -18,7 +18,7 @@
             "image": "https://sjachvaecaesin.github.io/wdd231/chamber/images/street-large.webp",
             "alt": "Company 2 Picture",
             "level": "Gold",
-            "optional": "xxxxxxxxxxxxx"
+            "optional": ""
         },
         {
             "name": "Company 3",
@@ -28,7 +28,7 @@
             "image": "https://sjachvaecaesin.github.io/wdd231/chamber/images/hall-large.webp",
             "alt": "Company 3 Picture",
             "level": "Gold",
-            "optional": "xxxxxxxxxxxxx"
+            "optional": ""
         },
         {
             "name": "Company 4",
@@ -38,7 +38,7 @@
             "image": "https://sjachvaecaesin.github.io/wdd231/chamber/images/corner-large.webp",
             "alt": "Company 4 Picture",
             "level": "Silver",
-            "optional": "xxxxxxxxxxxxx"
+            "optional": ""
         },
         {
             "name": "Company 5",
@@ -48,7 +48,7 @@
             "image": "https://sjachvaecaesin.github.io/wdd231/chamber/images/street-large.webp",
             "alt": "Company 5 Picture",
             "level": "Non-Profit",
-            "optional": "xxxxxxxxxxxxx"
+            "optional": ""
         },
         {
             "name": "Company 6",
@@ -58,7 +58,7 @@
             "image": "https://sjachvaecaesin.github.io/wdd231/chamber/images/hall-large.webp",
             "alt": "Company 6 Picture",
             "level": "Bronze",
-            "optional": "xxxxxxxxxxxxx"
+            "optional": ""
         },
         {
             "name": "Company 7",
@@ -68,7 +68,7 @@
             "image": "https://sjachvaecaesin.github.io/wdd231/chamber/images/corner-large.webp",
             "alt": "Company 7 Picture",
             "level": "Silver",
-            "optional": "xxxxxxxxxxxxx"
+            "optional": ""
         },
         {
             "name": "Company 8",
@@ -78,7 +78,7 @@
             "image": "https://sjachvaecaesin.github.io/wdd231/chamber/images/street-large.webp",
             "alt": "Company 8 Picture",
             "level": "Gold",
-            "optional": "xxxxxxxxxxxxx"
+            "optional": ""
         }
     ]
 }
