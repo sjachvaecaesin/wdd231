@@ -20,7 +20,7 @@ const displayCompanies = (companies) => {
         h3.textContent = company.name;
         img.setAttribute("src", company.image);
         img.setAttribute("alt", "Company picture");
-        p.innerHTML = `Address: ${company.address}<br>Phone: ${company.phone}\<br>Membership: ${company.level}<br>Extra: ${company.optional}<br><br>`
+        p.innerHTML = `Address: ${company.address}<br>Phone: ${company.phone}\<br>Membership: ${company.level}<br><br>`
         a.setAttribute("href", company.url);
         a.setAttribute("alt", company.alt);
         a.textContent = "Company link";
