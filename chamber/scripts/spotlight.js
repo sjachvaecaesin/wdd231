@@ -12,6 +12,7 @@ const displayCompanies = (companies) => {
     for (i = 0; i < 3; i++) {
         let company = Math.floor(Math.random() * temp.length);
         if (temp[company].level == "Gold" || temp[company].level == "Silver") {
+            let a = document.createElement("a");
             let section = document.createElement("section");
             let img = document.createElement("img");
             let h3 = document.createElement("h3");
@@ -20,11 +21,15 @@ const displayCompanies = (companies) => {
             h3.textContent = companies[company].name;
             img.setAttribute("src", companies[company].image);
             img.setAttribute("alt", companies[company].alt);
-            p.innerHTML = `Address: ${companies[company].address}<br>Phone: ${companies[company].phone}\<br>Membership: ${companies[company].level}<br>Extra: ${companies[company].optional}<br><br>`;
+            p.innerHTML = `Address: ${companies[company].address}<br>Phone: ${companies[company].phone}\<br>Membership: ${companies[company].level}<br><br>`;
+            a.setAttribute("href", company.url);
+            a.setAttribute("alt", company.alt);
+            a.textContent = "Company link";
 
             section.appendChild(img);
             section.appendChild(h3);
             section.appendChild(p);
+            section.appendChild(a);
             section.classList.add("card");
             section.classList.add("spotlight");
 

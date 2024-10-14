@@ -41,6 +41,10 @@ header button {
 	content: "X";
 }
 
+#join {
+    display: none;
+}
+
 #mode {
 	font-size: 1.5rem;
     margin: auto;
@@ -135,6 +139,10 @@ nav ul li {
 
 .about p:last-child {
     padding: 0;
+}
+
+.about a {
+    text-align: center;
 }
 
 .information {
@@ -239,7 +247,7 @@ nav ul li {
     display: grid;
     grid-template-rows: auto auto 1fr;
     color: #330731;
-    margin: 0 10px 0 10px;
+    margin: 15px 10px 0 10px;
 }
 
 .card img {
@@ -264,6 +272,12 @@ nav ul li {
 
 .card p {
     grid-row: 3/4;
+    background-color: #d8c677;
+    padding: 10px 10px 10px 20px;
+    margin: 0;
+}
+
+.spotlight a {
     background-color: #d8c677;
     margin: 0 0 30px 0;
     padding: 0 20px 20px 20px;
