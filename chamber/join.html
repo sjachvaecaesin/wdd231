@@ -27,7 +27,7 @@
     <nav class="navigation">
         <ul>
             <li><a href="https://sjachvaecaesin.github.io/wdd231/chamber/index.html">Home</a></li>
-            <li><a href="https://sjachvaecaesin.github.io/wdd231/chamber/discover.html">Discover</a></li>
+            <li><a href="#">Discover</a></li>
             <li><a href="https://sjachvaecaesin.github.io/wdd231/chamber/directory.html">Directory</a></li>
             <li><a href="https://sjachvaecaesin.github.io/wdd231/chamber/join.html" class="active">Join</a></li>
         </ul>
@@ -35,23 +35,18 @@
     <main id="joinpage">
         <form method="get" action="thankyou.html">
             <fieldset>
-                <label>First Name* <input type="text" id="first" name="fname" required></label>
-                <label>Last Name* <input type="text" id="last" name="lname" required></label>
-                <label>Title/Position* <input type="text" id="title" name="position" pattern="[A-Za-z\- ].{6,}" title="minimum 7 letters, including space and hyphen" required></label>
-                <label>Email* <input type="email" id="mail" name="email" placeholder="johndoe@gmail.com" required></label>
-                <label>Phone* <input type="tel" id="phone" name="phone" required></label>
-                <label>Business Name* <input type="text" id="business" name="business" required></label>
+                <label>First Name* <input type="text" id="first" name="fname" autocomplete="given-name" required></label>
+                <label>Last Name* <input type="text" id="last" name="lname" autocomplete="family-name" required></label>
+                <label>Title/Position* <input type="text" id="title" name="position" autocomplete="organization-title" pattern="[A-Za-z\- ].{6,}" title="minimum 7 letters, including space and hyphen"></label>
+                <label>Email* <input type="email" id="mail" name="email" placeholder="johndoe@gmail.com" autocomplete="email" required></label>
+                <label>Phone* <input type="tel" id="phone" name="phone" autocomplete="phone" required></label>
+                <label>Business Name* <input type="text" id="business" name="business" autocomplete="organization" required></label>
 
                 <label id="member">Membership Level</label>   
                 <label><input type="radio" name="membership" value="NP"> Non-Profit</label>
                 <label><input type="radio" name="membership" value="Bronze"> Bronze</label>
                 <label><input type="radio" name="membership" value="Silver"> Silver</label>
                 <label><input type="radio" name="membership" value="Gold"> Gold</label>
-
-                <label id="deschead">
-                    Business description
-                </label>
-                <textarea name="description" id="description" placeholder="Enter business information here (optional)"></textarea>
 
                 <input type="hidden" id="hide" name="hide">
             </fieldset>

@@ -378,14 +378,6 @@ footer {
     grid-row: 8/9;
 }
 
-#deschead {
-    grid-row: 12/13;
-}
-
-#description {
-    grid-row: 13/14;
-}
-
 #joinpage label {
     margin: 15px 0 15px 0;
 }
