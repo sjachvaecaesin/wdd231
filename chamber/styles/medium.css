@@ -93,7 +93,9 @@
     #disc-grid img {
         grid-column: 2/3;
         grid-row: 1/9;
+        transition: opacity 2s;
     }
+
 
     .display {
         grid-column: 1/2;

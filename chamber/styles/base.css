@@ -303,7 +303,6 @@ footer {
     width: 100%;
     height: auto;
     margin: auto;
-    transition: opacity 2s;
 }
 
 #disc-grid picture {
